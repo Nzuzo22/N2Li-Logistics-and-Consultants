@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+        <title>N2Li Logistics</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://use.fontawesome.com/a53bfad264.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </nav>
+            <h1>Services</h1>
+        </section>
+
+        <!--course-->
+        <section class="course">
+            <h1>Services We Offer</h1>
+            <p>Bringing change in the logistics
+                industry through diversity and innovation.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Sourcing Contracts/ Assets</h3>
+                    <p>Bringing change in the logistics
+                        industry through diversity and innovation.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Consulting</h3>
+                    <p>Bringing change in the logistics
+                        industry through diversity and innovation.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Logistics</h3>
+                    <p>Bringing change in the logistics
+                        industry through diversity and innovation.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--blog page content-->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+        
+    <div class="comment-box">
+        <h3>Leave a Comment</h3>
+        
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea type="text" rows="5" placeholder="Your comment">
+            </textarea>
+            <div>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </div>
+        </div>
+        </div>
+        <div class="blog-right"></div>
+        </div>
+        </form>
+    </div>
+
+
+</section>
+
+        
+        <!--footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+        <p>Bringing change in the logistics
+            industry through diversity and innovation.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-fire" aria-hidden="true"></i> by Sibaya</p>
+</section>
+
+
+
+
+
+
+
+
+        <!--JavaScript forToggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+    </body>
+</html>
